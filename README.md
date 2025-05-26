@@ -30,14 +30,20 @@ See `requirements.txt` for required packages. Ensure you have:
 Installation
 ------------
 1. Clone the repository or copy the script to a folder.
+    bash``
+   git clone https://github.com/rishabhkarnwal04/AI-LOGO-GENERATOR.git
+   cd AI-LOGO-GENERATOR
+    ``
+   
 2. Install dependencies:
-
+    bash``
     pip install -r requirements.txt
-
+        ``
 3. Run the app:
-
+    bash``
     python logo_gen.py
-
+    ``
+   
 Note:
 -----
 - If you're using a CPU-only machine, make sure not to use `torch_dtype=torch.float16`
